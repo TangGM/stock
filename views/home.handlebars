@@ -1,7 +1,12 @@
-<h1>This is my Handlebars Homepage!</h1>
-<p>{{stock}}</p>
+<div class="jumbotron">
+  <h1 class="display-4">{{stock.companyName}} ({{stock.symbol}})</h1>
+  <strong>Latest price: </strong>{{stock.latestPrice}}<br/>
+  <strong>Previous close: </strong>{{stock.previousClose}}<br/>
+  <strong>52wk high: </strong>{{stock.week52High}}<br/>
+  <strong>52wk low: </strong>{{stock.week52Low}}<br/>
+</div>
 
 
-{{#each stock}}
+<!-- {{#each stock}}
     {{@key}} | {{this}} <br />
-{{/each}}
+{{/each}} -->
