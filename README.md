@@ -1,4 +1,4 @@
-# stock-ticker-search
+# stock-api-ticker-search
 
 This site is built on nodejs and allows users to search for stock prices using IEX Cloud stock api. <br/>
 You can type in a ticker to get the stock information of the company.
